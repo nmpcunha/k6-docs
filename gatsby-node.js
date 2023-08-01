@@ -194,11 +194,11 @@ const topLevelLinks = [
     label: 'Cloud Docs',
     to: '/cloud/',
     submenu: [
-      { label: 'k6 Cloud', to: `/cloud/` },
       {
         label: 'Grafana Cloud k6',
         to: 'https://grafana.com/docs/grafana-cloud/k6',
       },
+      { label: 'k6 Cloud', to: `/cloud/` },
     ],
   },
   {
@@ -1660,6 +1660,13 @@ const createRedirects = ({ actions }) => {
   createRedirect({
     fromPath: '/test-authoring/recording-a-session/',
     toPath: '/test-authoring/create-tests-from-recordings/',
+    isPermanent: true,
+  });
+
+  createRedirect({
+    fromPath: '/cloud/cloud-reference/cloud-rest-api/',
+    toPath:
+      'https://grafana.com/docs/grafana-cloud/k6/reference/cloud-rest-api/',
     isPermanent: true,
   });
 

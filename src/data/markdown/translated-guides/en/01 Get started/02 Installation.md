@@ -56,6 +56,12 @@ Alternatively, you can download and run [the latest official installer](https://
 docker pull grafana/k6
 ```
 
+We also have a separate image you can use with `chromium` installed to run k6 browser tests.
+
+```bash
+docker pull grafana/k6:master-with-browser
+```
+
 ## Download the k6 binary
 
 Our [GitHub Releases page](https://github.com/grafana/k6/releases) has a standalone binary for all platforms. After downloading and extracting the archive for your platform, place the `k6` or `k6.exe` binary in your `PATH` to run `k6` from any location.
@@ -68,4 +74,4 @@ Head to the [bundle builder page](/extensions/get-started/bundle/) to get starte
 ## Troubleshooting
 
 If installation fails, check the [list of common installation issues](/get-started/installation/troubleshooting/).
-If your problem is not listed and persists, reach out via the channel `#community-discussion` on our [official Slack](https://k6io.slack.com/), or report it on our [community forum](https://community.k6.io/).
+If your problem is not listed and persists, reach out via the channel `#community-discussion` on our [official Slack](https://k6io.slack.com/), or report it on our [community forum](https://community.grafana.com/).

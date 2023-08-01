@@ -20,7 +20,7 @@ These resources help you write and run k6 tests in a safe environment and explor
 
 ## Community
 
-- [The k6 community forum](https://community.k6.io/). Get support from the k6 team and community.
+- [The k6 community forum](https://community.grafana.com/). Get support from the k6 team and community.
 - [Get in touch](https://k6.io/community/#join-the-conversation). Slack, Meetup, Twitter, Stack Overflow, LinkedIn, and more.
 
 ## Test servers
@@ -28,7 +28,7 @@ These resources help you write and run k6 tests in a safe environment and explor
 If you need a place to test k6 scripts, you can load these servers as much as you want.
 
 - [test.k6.io](https://test.k6.io). A demo website
-- [test-api.k6.io](https://test.k6.io). A demo REST API (with some WebSocket support).
+- [test-api.k6.io](https://test-api.k6.io). A demo REST API (with some WebSocket support).
 - [ecommerce.test.k6.io](http://ecommerce.test.k6.io/). The k6 Fake Shop, a demo WooCommerce site.
 
 ## k6 + your favorite tool

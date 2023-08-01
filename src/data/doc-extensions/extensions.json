@@ -46,21 +46,6 @@
       "cloudEnabled": false
     },
     {
-      "name": "xk6-websockets",
-      "description": "A WHATWG WebSockets API specification implementation for k6 that might replace k6/ws in the future.",
-      "url": "https://github.com/grafana/xk6-websockets",
-      "logo": "",
-      "author": {
-        "name": "",
-        "url": ""
-      },
-      "stars": "13",
-      "type": ["JavaScript"],
-      "categories": ["WebSockets"],
-      "tiers": ["Official"],
-      "cloudEnabled": true
-    },
-    {
       "name": "xk6-kafka",
       "description": "Load-test Apache Kafka. Includes support for Avro messages",
       "url": "https://github.com/mostafa/xk6-kafka",
@@ -78,8 +63,8 @@
     {
       "name": "xk6-notification",
       "description": "Create notifications",
-      "url": "https://github.com/dgzlopes/xk6-notification",
-      "logo": "https://github.com/dgzlopes/xk6-notification/blob/db5504667ff7530ee619c42e5c1037703f603b30/assets/logo.png?raw=true",
+      "url": "https://github.com/grafana/xk6-notification",
+      "logo": "https://github.com/grafana/xk6-notification/blob/db5504667ff7530ee619c42e5c1037703f603b30/assets/logo.png?raw=true",
       "author": {
         "name": "Daniel González",
         "url": "https://github.com/dgzlopes"
@@ -87,7 +72,7 @@
       "stars": "14",
       "type": ["JavaScript"],
       "categories": ["Reporting"],
-      "tiers": ["Community"],
+      "tiers": ["Official"],
       "cloudEnabled": false
     },
     {
@@ -119,51 +104,6 @@
       "type": ["JavaScript"],
       "categories": ["Data"],
       "tiers": ["Official"],
-      "cloudEnabled": false
-    },
-    {
-      "name": "xk6-redis",
-      "description": "Client for testing Redis",
-      "url": "https://github.com/grafana/xk6-redis",
-      "logo": "",
-      "author": {
-        "name": "",
-        "url": "https://github.com/grafana"
-      },
-      "stars": "13",
-      "type": ["JavaScript"],
-      "categories": ["Data"],
-      "tiers": ["Official"],
-      "cloudEnabled": true
-    },
-    {
-      "name": "xk6-distributed-tracing",
-      "description": "Distributed tracing",
-      "url": "https://github.com/grafana/xk6-distributed-tracing",
-      "logo": "",
-      "author": {
-        "name": "grafana",
-        "url": "https://github.com/grafana"
-      },
-      "stars": "58",
-      "type": ["Output"],
-      "categories": ["Observability"],
-      "tiers": ["Official"],
-      "cloudEnabled": false
-    },
-    {
-      "name": "xk6-datadog",
-      "description": "Query Datadog metrics",
-      "url": "https://github.com/dgzlopes/xk6-datadog",
-      "logo": "",
-      "author": {
-        "name": "Daniel González",
-        "url": "https://github.com/dgzlopes"
-      },
-      "stars": "5",
-      "type": ["JavaScript"],
-      "categories": ["Data"],
-      "tiers": ["Community"],
       "cloudEnabled": false
     },
     {
@@ -512,21 +452,6 @@
       "cloudEnabled": false
     },
     {
-      "name": "xk6-output-prometheus-remote",
-      "description": "Export results to Prometheus remote write endpoints",
-      "url": "https://github.com/grafana/xk6-output-prometheus-remote",
-      "logo": "",
-      "author": {
-        "name": "",
-        "url": "https://github.com/grafana"
-      },
-      "stars": "92",
-      "type": ["Output"],
-      "categories": ["Reporting", "Observability"],
-      "tiers": ["Official"],
-      "cloudEnabled": false
-    },
-    {
       "name": "xk6-prometheus",
       "description": "Prometheus HTTP exporter for k6",
       "url": "https://github.com/szkiba/xk6-prometheus",
@@ -857,21 +782,6 @@
       "cloudEnabled": false
     },
     {
-      "name": "xk6-temporal",
-      "description": "Use for testing/benchmarking Temporal",
-      "url": "https://github.com/temporalio/xk6-temporal",
-      "logo": "",
-      "author": {
-        "name": "temporalio",
-        "url": "https://github.com/temporalio"
-      },
-      "stars": "7",
-      "type": ["JavaScript"],
-      "categories": ["Platform"],
-      "tiers": ["Community"],
-      "cloudEnabled": false
-    },
-    {
       "name": "xk6-celery",
       "description": "Generate load on Celery workers",
       "url": "https://github.com/fornfrey/xk6-celery",
@@ -1154,6 +1064,51 @@
       "stars": "0",
       "type": ["Output"],
       "categories": ["Reporting", "Data"],
+      "tiers": ["Community"],
+      "cloudEnabled": false
+    },
+    {
+      "name": "xk6-gcp",
+      "description": "A k6 extension for Google Cloud Platform services.",
+      "url": "https://github.com/deejiw/xk6-gcp",
+      "logo": "",
+      "author": {
+        "name": "Tossaporn Jiw",
+        "url": "https://github.com/deejiw"
+      },
+      "stars": "0",
+      "type": ["JavaScript"],
+      "categories": ["Misc"],
+      "tiers": ["Community"],
+      "cloudEnabled": false
+    },
+    {
+      "name": "xk6-read",
+      "description": "Read files and directories",
+      "url": "https://github.com/acuenca-facephi/xk6-read",
+      "logo": "",
+      "author": {
+        "name": "Adrián Cuenca",
+        "url": "https://github.com/acuenca-facephi"
+      },
+      "stars": "0",
+      "type": ["JavaScript"],
+      "categories": ["Misc"],
+      "tiers": ["Community"],
+      "cloudEnabled": false
+    },
+    {
+      "name": "xk6-output-clickhouse",
+      "description": "Export results to ClickHouse",
+      "url": "https://github.com/Maksimall89/xk6-output-clickhouse",
+      "logo": "",
+      "author": {
+        "name": "Maksimall89",
+        "url": "https://github.com/Maksimall89"
+      },
+      "stars": "2",
+      "type": ["Output"],
+      "categories": ["Reporting", "Observability"],
       "tiers": ["Community"],
       "cloudEnabled": false
     }
